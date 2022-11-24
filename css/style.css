@@ -19,10 +19,12 @@
    padding: 16px 24px 0;
 }
 
+.growth {
+    color: rgb(10, 141, 180);
+}
+
 .header-image {
     display: inline-block;
-    width: 8%;
-    height: 100%;
 }
 
 .header-nav-lists {
@@ -212,7 +214,7 @@
 /* service ここから */
 .service {
     width: 100%;
-    height: 650px;
+    height: 800px;
 }
 
 .common-text-service {
@@ -291,7 +293,6 @@
 .service-content-2 {
     height: 50%;
     display: flex;
-    justify-content: space-between;
 }
 
 .service-image-2 {
@@ -306,15 +307,12 @@
 
 .service-content-texts {
     margin-top: 45px;
+    margin-left: 16px;
 }
 
 .service-content-text {
     line-height: 1.7;
     font-size: 14px;
-}
-
-.service-content-small .service-content-text {
-    margin-right: 14px;
 }
 
 
